@@ -1,5 +1,6 @@
 CXX = g++
-CFLAGS = -Wall -I$(INCL) -g -fsanitize=address
+# CFLAGS = -Wall -I$(INCL) -g -fsanitize=address
+CFLAGS = -Wall -I$(INCL) -g
 LIBS = -ltesseract -lpthread $(OPENCV)
 OPENCV = `pkg-config --cflags --libs opencv`
 
