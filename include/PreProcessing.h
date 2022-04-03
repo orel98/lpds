@@ -9,6 +9,7 @@ constexpr const int CASCADE_FLAGS = 0;
 // ?
 const cv::Size CASCADE_MIN_DETECTION_SIZE(53, 13);
 
+
 // img resize factor set to 500 pixles wide
 constexpr const int RESIZE_FACTOR = 500;
 
